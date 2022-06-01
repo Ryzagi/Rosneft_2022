@@ -56,7 +56,7 @@ def train_model(df: pd.DataFrame) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    df = read_signals('./data/signals.csv')
+    df = read_signals('signals.csv')
     df = clusterize(df)
     df = train_model(df)
-    write_signals(df, './data/result.csv')
+    write_signals(df, 'result.csv')
