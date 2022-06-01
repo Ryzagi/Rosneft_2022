@@ -5,8 +5,8 @@ conda create --name env python=3.9 && conda activate env
 
 2. Установить requirements.txt
 
-pip install -r ./libs/requirements.txt
+pip install -r requirements.txt
 
 3. Запустить код (из корня):
 
-python ./code/run.py
+python run.py
