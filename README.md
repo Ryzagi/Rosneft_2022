@@ -1,5 +1,5 @@
 # Rosneft_2022
-Solution of the Rosneft hackathon 2022, Hackathon of the country's universities, 4th place
+Solution of the Rosneft hackathon 2022, Hackathon of the country's universities, 4th place out of 56
 # Problem statement
 A set of 760 discrete real-valued signals consisting of 5000 samples is given. The set of signals is divided into 9 clusters according to some characteristics and there are 4 characteristic points on each signal, which are determined by certain rules within each cluster.
 
