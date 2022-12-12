@@ -1,21 +1,21 @@
 # Rosneft_2022
-Решение хакатона Роснефть 2022, Хакатон вузов страны, 4 место
-# Постановка задачи
-Дано множество из 760 дискретных вещественнозначных сигналов, состоящих из 5000 отсчетов. Множество сигналов делится на 9 кластеров по некоторым признакам и на каждом сигнале имеется 4 характерные точки, которые определяются по некоторым правилам внутри каждого кластера.
+Solution of the Rosneft hackathon 2022, Hackathon of the country's universities, 4th place
+# Problem statement
+A set of 760 discrete real-valued signals consisting of 5000 samples is given. The set of signals is divided into 9 clusters according to some characteristics and there are 4 characteristic points on each signal, which are determined by certain rules within each cluster.
 
-Для 15% сигналов заданы:
-Принадлежность к 1 из 9 кластеров.
-Определены 4 характерные точки в каждом кластере.
+For 15% of the signals, the following are set:
+Belonging to 1 of 9 clusters.
+4 characteristic points in each cluster have been identified.
 
-Необходимо составить алгоритм и реализовать его в виде программ, который позволит для оставшихся 85 % сигналов:
-Определить для каждого сигнала принадлежность к 1 из 9 кластеров (задача 1).
-Определить для каждого сигнала все 4 характерные точки (задача 2).
+It is necessary to make an algorithm and implement it in the form of programs, which will allow for the remaining 85% of signals:
+Determine for each signal belonging to 1 of 9 clusters (task 1).
+Determine for each signal all 4 characteristic points (task 2).
 
-Для оценки результата участники должны предоставить:
-Программное решение.
-Файл с результатами использования программного решения на представленных данных.
-Список вспомогательных библиотек с инструкцией по их установке (если требуется).
+To evaluate the result, participants must provide:
+Software solution.
+A file with the results of using the software solution on the presented data.
+A list of auxiliary libraries with instructions on how to install them (if required).
 
-Примечание: в исходных данных дополнительно включены координаты (X, Y), которые позволяют оценить границы полученных кластеров и исключить отсутствие отдельных удаленных сигналов.
+Note: the source data additionally includes coordinates (X, Y), which allow us to estimate the boundaries of the received clusters and exclude the absence of separate remote signals.
 
 
