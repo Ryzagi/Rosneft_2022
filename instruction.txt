@@ -1,12 +1,12 @@
-1. Создать энвайромент с помощью любого менеджера энвайроментов.
-Например с помощью conda:
+1. Create an environment using any environment manager.
+For example using conda:
 
 conda create --name env python=3.9 && conda activate env
 
-2. Установить requirements.txt
+2. Install requirements.txt
 
 pip install -r requirements.txt
 
-3. Запустить код (из корня):
+3. Run the code (from the root):
 
 python run.py
